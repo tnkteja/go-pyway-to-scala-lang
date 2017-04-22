@@ -1,4 +1,4 @@
-# Go Python Way to Scala while sipping Java
+# Go Python Way to Scala while CPPing Java
 
 Python one liners - First of all you are in for a ride!
 
