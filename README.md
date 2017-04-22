@@ -1,4 +1,4 @@
-# Go Python Way to Scala Language
+# Go Python Way to Scala while sipping Java
 
 Python one liners - First of all you are in for a ride!
 
