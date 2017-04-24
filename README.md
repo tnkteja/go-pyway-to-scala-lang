@@ -25,7 +25,7 @@ object SomeName {
     }
 }
 ```
-Alright the aim is to use 
+Alright the aim is to taste the scala sugar.
 ```scala
 object someName extends App {
     val someVariable: Integer = 0;
