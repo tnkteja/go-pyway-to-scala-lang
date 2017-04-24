@@ -20,7 +20,8 @@ object SomeName {
 */
 //
     def main(args: Array[String]){
-          val someVariable: Integer = 0;
+          val someVariable: Int = 0; // Immtable variable
+          var someOtherVariable:Int = 0; // Mutable Variable
           println(args)
     }
 }
