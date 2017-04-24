@@ -21,7 +21,7 @@ object SomeName {
 //
     def main(args: Array[String]){
           val someVariable: Integer = 0;
-          println()
+          println(args)
     }
 }
 ```
@@ -29,7 +29,7 @@ Alright the aim is to taste the scala sugar.
 ```scala
 object someName extends App {
     val someVariable: Integer = 0;
-    println()
+    println(args)
 }
 ```
 Interesting thing one can see about over here is a typed tuple `val (myVar1: Int, myVar2: String) = Pair(40, "Foo")`, this Pair reminds me of the pair from cpp `pair<int,int> someName;`.
