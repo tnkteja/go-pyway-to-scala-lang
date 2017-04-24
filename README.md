@@ -46,6 +46,6 @@ class someName(val someArgument: Int) {
     }
 }
 ```
-
+Sadly `val`ed variable is immutable :( .
 # References
 1. _https://datasciencevademecum.wordpress.com/2016/01/28/6-points-to-compare-python-and-scala-for-data-science-using-apache-spark/_
