@@ -53,6 +53,7 @@ class someName(val someArgument: Int) {
     }
 }
 ```
+## Lambda Functions
 ```python
 someName=lambda x:  x
 ```
