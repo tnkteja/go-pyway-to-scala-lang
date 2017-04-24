@@ -67,6 +67,22 @@ func someName(a Int) Int {
 def someName(a:int): Int {
 }
 ```
+
+```golang
+var f func(int) int
+f = func(i int) int {
+    if i == 0 {
+        return 1
+    }
+    return i * f(i-1)
+}
+```
+
+```scala
+def someName(a:int): Int {
+}
+val someOtherName: (Int, Int) => Int = someName
+```
 > In scala everything is a function.
 
 # References
