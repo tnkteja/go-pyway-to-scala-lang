@@ -53,8 +53,20 @@ class someName(val someArgument: Int) {
     }
 }
 ```
-Sadly `val`ed variable is immutable :( .
-
+```python
+someName=lambda x:  x
+```
+```scala
+val someName = (x:Int) => { x}:Int
+```
+```golang
+func someName(a Int) Int {
+}
+```
+```scala
+def someName(a:int): Int {
+}
+```
 > In scala everything is a function.
 
 # References
