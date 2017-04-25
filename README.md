@@ -35,6 +35,7 @@ object someName extends App {
     println(args)
 }
 ```
+
 Interesting thing one can see about over here is a typed tuple `val (myVar1: Int, myVar2: String) = Pair(40, "Foo")`, this Pair reminds me of the pair from cpp `pair<int,int> someName;`.
 
 ```python
