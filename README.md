@@ -86,7 +86,8 @@ def someName(a:int): Int {
 val someOtherName: (Int, Int) => Int = someName
 ```
 > In scala everything is a function.
-### if else - sugar
+
+### if else - Sugar :candy:
 
 ```python
 someVariableName=1 if 1 else 0
@@ -94,7 +95,8 @@ someVariableName=1 if 1 else 0
 ```scala
 val someConstantVariableName:Int=  1 if ( true) else 0
 ```
-## Abstract Factory - Implicit Class
+## Implicit aid 
+![](http://livingcivil.com/wp-content/uploads/2011/10/Story4.jpg)
 ```python
 ```
 
