@@ -60,6 +60,7 @@ someName=lambda x:  x
 ```scala
 val someName = (x:Int) => { x}:Int
 ```
+## Just functions
 ```golang
 func someName(a Int) Int {
 }
@@ -68,7 +69,7 @@ func someName(a Int) Int {
 def someName(a:int): Int {
 }
 ```
-
+## function variables
 ```golang
 var f func(int) int
 f = func(i int) int {
