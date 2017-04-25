@@ -2,6 +2,8 @@
 
 Python one liners - First of all you are in for a ride!
 
+## Index
+
 ```golang
 type SomeName struct {
 }
