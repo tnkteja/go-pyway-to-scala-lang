@@ -86,6 +86,17 @@ def someName(a:int): Int {
 val someOtherName: (Int, Int) => Int = someName
 ```
 > In scala everything is a function.
+### if else - sugar
+
+```python
+someVariableName=1 if 1 else 0
+```
+```scala
+val someConstantVariableName:Int=  1 if ( true) else 0
+```
+## Abstract Factory - Implicit Class
+```python
+```
 
 # References
 1. _https://datasciencevademecum.wordpress.com/2016/01/28/6-points-to-compare-python-and-scala-for-data-science-using-apache-spark/_
