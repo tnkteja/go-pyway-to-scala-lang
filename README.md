@@ -100,3 +100,4 @@ val someConstantVariableName:Int=  1 if ( true) else 0
 
 # References
 1. _https://datasciencevademecum.wordpress.com/2016/01/28/6-points-to-compare-python-and-scala-for-data-science-using-apache-spark/_
+2. _http://www.alessandrolacava.com/blog/scala-case-classes-in-depth/_
