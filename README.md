@@ -101,7 +101,31 @@ val someConstantVariableName:Int=  1 if ( true) else 0
 ![](http://livingcivil.com/wp-content/uploads/2011/10/Story4.jpg)
 ```python
 ```
-
+```scala
+```
+### Implicit Value for a type
+```scala
+implicit val a:Int = 5;
+def someFunctionName(){a:int}={
+println(a)
+}
+println(implicitly(Int))
+```
+## Partial Functions
+### Starting with Default parameters
+```python
+def someFunctionName(one, two=None):
+    pass
+```
+```scala
+def someFunctionName(one:Int, two:Int=0)={
+}
+```
+### Now there there
+```scala
+def someFunction(a:Int){b:Int}= (a%b==0)
+List(4,5,6).map(someFunction(30))
+```
 # References
 1. _https://datasciencevademecum.wordpress.com/2016/01/28/6-points-to-compare-python-and-scala-for-data-science-using-apache-spark/_
 2. _http://www.alessandrolacava.com/blog/scala-case-classes-in-depth/_
