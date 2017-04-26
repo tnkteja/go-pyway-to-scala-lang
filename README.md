@@ -56,6 +56,13 @@ class someName(val someArgument: Int) {
     }
 }
 ```
+## Love Python Generators .. Oh yeah you will love this
+```python
+# Generator
+```
+```scala
+Source
+```
 ## Lambda Functions
 ```python
 someName=lambda x:  x
