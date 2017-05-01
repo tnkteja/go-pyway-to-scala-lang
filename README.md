@@ -105,7 +105,7 @@ someVariableName=1 if 1 else 0
 ```scala
 val someConstantVariableName:Int=  1 if ( true) else 0
 ```
-## I _Promise_ you a bright _Future_
+## I _Promise_ you a :high_brightness: _Future_
 
 ```javascript
 ```
