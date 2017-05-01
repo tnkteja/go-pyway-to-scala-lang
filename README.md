@@ -108,7 +108,13 @@ val someConstantVariableName:Int=  1 if ( true) else 0
 ## I _Promise_ you a :high_brightness: _Future_
 
 ```javascript
+new Promise(function(resolve, reject) {
+    resolve("hi")
+}).then( function( result ) {
+}, function( error ) {
+});
 ```
+May be scala will change the name to "Promises" too who knows. [3]
 ```scala
 val f = Future {
 }
@@ -145,3 +151,4 @@ List(4,5,6).map(someFunction(30))
 # References
 1. _https://datasciencevademecum.wordpress.com/2016/01/28/6-points-to-compare-python-and-scala-for-data-science-using-apache-spark/_
 2. _http://www.alessandrolacava.com/blog/scala-case-classes-in-depth/_
+3. _https://developers.google.com/web/fundamentals/getting-started/primers/promises_
