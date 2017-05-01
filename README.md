@@ -105,6 +105,14 @@ someVariableName=1 if 1 else 0
 ```scala
 val someConstantVariableName:Int=  1 if ( true) else 0
 ```
+## I _Promise_ you a bright _Future_
+
+```javascript
+```
+```scala
+val f = Future {
+}
+```
 ## Implicit aid 
 ![](http://livingcivil.com/wp-content/uploads/2011/10/Story4.jpg)
 ```python
