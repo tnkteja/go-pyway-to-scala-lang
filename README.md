@@ -1,4 +1,4 @@
-# Go Python Way to Scala while CPPing Java and Designing Patterns
+# Go Python Way to Scala while CPPing Java[script] and Designing Patterns
 
 Python one liners - First of all you are in for a ride!
 
