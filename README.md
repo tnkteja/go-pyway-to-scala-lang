@@ -105,6 +105,19 @@ someVariableName=1 if 1 else 0
 ```scala
 val someConstantVariableName:Int=  1 if ( true) else 0
 ```
+## Accumulative computation on Iterables with _Folding_
+```python3.4
+from itertools import accumulate
+from operator import add
+
+print accumulate([1,2,3,4,5], add)
+```
+if you think that is just cool. We can do functionally on scala. Whoa! [4][5]
+```scala
+List([1,2,3,4,5]).fold(0) { (z,i) => z+i }
+List([1,2,3,4,5]).foldLeft(0) { (z,i) => z+i }
+List([1,2,3,4,5]).foldRight(0) { (z,i) => z+i }
+```
 ## I _Promise_ you a :high_brightness: _Future_
 
 ```javascript
@@ -152,3 +165,5 @@ List(4,5,6).map(someFunction(30))
 1. _https://datasciencevademecum.wordpress.com/2016/01/28/6-points-to-compare-python-and-scala-for-data-science-using-apache-spark/_
 2. _http://www.alessandrolacava.com/blog/scala-case-classes-in-depth/_
 3. _https://developers.google.com/web/fundamentals/getting-started/primers/promises_
+4. _https://coderwall.com/p/4l73-a/scala-fold-foldleft-and-foldright_
+5. _https://oldfashionedsoftware.com/2009/07/30/lots-and-lots-of-foldleft-examples/_
