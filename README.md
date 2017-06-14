@@ -105,6 +105,9 @@ someVariableName=1 if 1 else 0
 ```scala
 val someConstantVariableName:Int=  1 if ( true) else 0
 ```
+
+## Functional Looping
+
 ## Accumulative computation on Iterables with _Folding_
 ```python3.4
 from itertools import accumulate
