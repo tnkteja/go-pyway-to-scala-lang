@@ -1,5 +1,7 @@
 # Go Python Way to Scala while CPPing Java[script] and Designing Patterns
 
+Scala is so functional and so readable `nah` functionally readable that we would soon call it `proof reading` instead of `code review`. :stuck_out_tongue_closed_eyes:
+
 Python one liners - First of all you are in for a ride!
 
 ## Index
